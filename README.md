@@ -9,7 +9,8 @@ Detect any Rickroll in some seconds!
 Everybody knows what it is. There's also a [Wikipedia](https://wikipedia.org/wiki/Rickrolling) and a [Know Your Meme](https://knowyourmeme.com/memes/rickroll) article.
 
 ### It doesn't detect *this* link! Can you add it?
-Sure. Report it in the issue tab or make a PR.
+Sure. Report it in the issue tab or make a PR. 
+(Addimg them as of 7/4/2023)
 
 ### How does it work?
 It basically detects if the video's ID is inside a "blacklist" contained inside *rickrolls.json*. Then it checks if the video's author is between another blacklist and after that, if nothing has been detected, it checks if the video's description and title contain the word "rickroll".
